@@ -1,0 +1,26 @@
+//*****************
+//VARIABLES
+//*****************
+$color-principal: #17406D;
+$color-secundario: #003b9a;
+$color-toolbar: #ffffff;
+$color-footer: #292b2c;
+$color-text: #000000;
+$color-text-light: #ffffff;
+.tarjeta a.boton {
+    background: $color-secundario!important;
+}
+.text-light {
+    color: $color-text-light;
+}
+.bloque-contenido .btn {
+    background-color: $color-secundario!important;
+    border-color: $color-secundario!important;
+}
+//*****************
+//card-header
+//*****************
+.card-header {
+    background-color: $color-secundario;
+    color: $color-text-light;
+}
